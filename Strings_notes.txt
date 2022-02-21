@@ -1,0 +1,17 @@
+Taking string inputs:
+
+sc.nextLine() to take input of multiple words
+sc.next() to take single token input
+
+Eg. 
+"Hello World!"
+sc.nextLine() will take "Hello World!" as the input
+sc.next() will take "Hello" as the input
+
+Convert a string to a character:
+
+String s = "hello";
+char[] arr = s.toCharArray();
+
+
+arr will now be: {'h', 'e', 'l', 'l', 'o'};
