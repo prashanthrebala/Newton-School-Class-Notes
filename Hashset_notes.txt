@@ -1,0 +1,14 @@
+Creating HashSet
+
+HashSet<Integer> set = new HashSet<Integer>(); // creates a set that can store integers.
+
+You can specify other data types such as String, Long, Double or your own classes like Node, Pair, etc.
+
+Methods of HashSet:
+
+add() - adds an element to a set
+remove() - removes an element from the set if it is present
+contains() - returns a boolean value if an element is present in the set
+size() - returns the size of the set
+
+
