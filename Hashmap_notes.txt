@@ -1,0 +1,16 @@
+Creating HashMap
+
+HashMap<String, Integer> hashMap = new HashMap<String, Integer>();
+
+Official document: https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
+
+Important methods of hashmap
+
+put(type1, type2)
+get(type1)  returns value is present, else returns null
+containsKey(type1) returns true/false
+containsValue(type2)  returns true/false
+keySet  returns a HashSet<type1> containing all keys
+remove(type1) removes the entry from the map
+size() returns size of the map
+getOrDefault returns the corresponding value if key is present, or returns the default value specified
